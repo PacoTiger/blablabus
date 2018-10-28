@@ -1,0 +1,17 @@
+[
+  {
+    "category": "Standard",
+    "model": "A",
+    "pricescompany": [{"Alsa":1520}, {"Socibus":1380}, {"FerruchiBus":1290}]
+  },
+  {
+    "category": "Standard",
+    "model": "B",
+    "pricescompany": [{"Alsa":980}, {"Socibus":800}, {"FerruchiBus":990}]
+  },
+  {
+    "category": "VIP",
+    "model": "A",
+    "pricescompany": [{"Alsa":2400}, {"Socibus":2250}, {"FerruchiBus":2300}]
+  }  
+]

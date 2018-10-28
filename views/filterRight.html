@@ -1,0 +1,35 @@
+<div class="col s12 m3 l3"> 
+
+    <form action="#">
+
+      
+      <input type="date" class="datePicker" ng-model="datePick">
+      <input type="date" class="datePicker" ng-model="dateReturn">
+      <script src="js/datepicker.js" type="text/javascript"></script>
+
+      <input placeholder="Search by category" type="text" ng-model="categoryFilter"/>
+      <div class="switch">
+         <p>
+            <input type="checkbox" id="test1" ng-model="acFilter" ng-true-value="true" ng-false-value=""/>
+            <label for="test1">Air Condition</label>
+         </p>
+         <p>
+            <input type="checkbox" id="test2" data-ng-model="wheelchairFilter" ng-true-value="true" ng-false-value=""/>
+            <label for="test2">Wheelchair</label>
+         </p>
+         <p>
+            <input type="checkbox" id="test3" data-ng-model="wifiFilter" ng-true-value="true" ng-false-value=""/>
+            <label for="test3">Wifi</label>
+         </p>
+         <p>
+            <input type="checkbox" id="test4" data-ng-model="plugFilter" ng-true-value="true" ng-false-value=""/>
+            <label for="test4">Plug</label>
+         </p>
+         <p>
+            <input type="checkbox" id="test5" data-ng-model="tvFilter" ng-true-value="true" ng-false-value=""/>
+            <label for="test5">Tv</label>
+         </p>
+      </div>
+    </form>
+</div>  <!-- Close right menu -->
+

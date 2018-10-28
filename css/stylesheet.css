@@ -1,0 +1,122 @@
+body {
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.nav-wrapper {
+	background-color: black;
+	text-align: center;
+}
+
+.brand-logo {
+	left: 17%;
+}
+footer.page-footer{
+	padding:0;
+	background-color: black;
+}
+
+footer.page-footer .container .row{
+	margin:0;
+}
+
+footer.page-footer .container .row .container-links{
+	margin:0;
+}
+
+main .slider .indicators .indicator-item.active{
+	background-color:#ffc34d;
+}
+
+.slider{
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.card-title {
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.cardElement{
+	display:inline-block;
+	width:30%;
+	margin:1em;
+	vertical-align:top;
+}
+.cardOne{
+	width: 76%;
+	margin: auto;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+	color: #357b3b;
+}
+.border {
+	border: solid 1px black;
+}
+.available {
+	color:green;
+}
+.unavailable {
+	color:red;
+}
+.imgbus {
+	height: 19em;
+}
+.btn-footer-card {
+	top: 14em;
+	right: 2em;
+	position:absolute;
+}
+.pushRight {
+    top: 0.2em;
+    right: 1em;
+}
+.iconBus {
+	width: 4px;
+}
+video {
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -100;
+}
+#introForm {
+	width: 360px;
+    height: 360px;
+    margin: 40px auto;
+    background: no-repeat rgba(20, 118, 143, .5) 50%;
+    border-radius: 50%;
+    border: 15px solid rgba(255, 255, 255, .2);
+    padding: 13px;
+
+
+}
+.front {
+	z-index: -999px;
+}
+
+.btn-search {
+    justify-content: center;
+    display: flex;
+     margin-top: 10%;
+     font-size: xx-large;
+}
+#btn-intro {
+	 justify-content: center;
+    display: flex;
+     margin-top: 19%;
+}
+.colorB{
+	color: black;
+}
+.modal {
+	width: 25%;
+}
+.iconBusRed{
+	color:red;
+}
+
+

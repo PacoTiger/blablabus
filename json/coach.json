@@ -1,0 +1,294 @@
+[
+  {
+    "id":"2",
+    "category": "Standard",
+    "model":"B",
+    "image":"resources/image/cabina.png",
+    "airc":true,
+    "company": [
+                {"name": "Contreras S.A", "priceBase":900, "datai":1469916000000, "infoi":"31 de Julio", "dataf":1470002400000, "infof":"01 de Agosto"},
+                {"name": "Alsa", "priceBase":700, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":750, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":690, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":800, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Samar", "priceBase":660, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Alsina Graells", "priceBase":740, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": false,
+    "plug": true,
+    "wifi": false,
+    "tv": true,
+    "seat":55,
+    "special":false
+  },
+  {
+    "id":"3",
+    "category": "Standard",
+    "model":"C",
+    "image":"resources/image/standard1.jpg",
+    "airc":false,
+    "company": [
+                {"name": "Grupo Damas", "priceBase":500, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Contreras S.A", "priceBase":610, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsa", "priceBase":740, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":550, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":450, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":700, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":400, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Alsina Graells", "priceBase":415, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": false,
+    "plug": false,
+    "wifi": false,
+    "tv": false,
+    "seat":52,
+    "special":false
+  },
+  {
+    "id":"4",
+    "category": "MiniBus",
+    "model":"A",
+    "image":"resources/image/executiveMiniBus.jpg",
+    "airc":true,
+    "company": [
+                {"name": "MonBus", "priceBase":660, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Contreras S.A", "priceBase":600, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Grupo Damas", "priceBase":560, "datai":1470002400000, "infoi":"1 de Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsa", "priceBase":690, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":480, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":680, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":520, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":360, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Alsina Graells", "priceBase":400, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": false,
+    "plug": true,
+    "wifi": true,
+    "tv": true,
+    "seat":20,
+    "special":false
+  },
+  {
+    "id":"5",
+    "category": "MiniBus",
+    "model":"B",
+    "image":"resources/image/minibus1.jpg",
+    "airc":true,
+    "company": [
+                {"name": "Grupo Damas", "priceBase":400, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Contreras S.A", "priceBase":400, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsa", "priceBase":440, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":360, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":300, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":400, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":410, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsina Graells", "priceBase":380, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": false,
+    "plug": false,
+    "wifi": true,
+    "tv": false,
+    "seat":16,
+    "special":false
+  },
+  {
+    "id":"6",
+    "category": "MiniBus",
+    "model":"C",
+    "image":"resources/image/minibus2.jpg",
+    "airc":false,
+    "company": [
+                {"name": "MonBus", "priceBase":220, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Contreras S.A", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsa", "priceBase":1290, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":1000, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":900, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":825, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsina Graells", "priceBase":850, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": false,
+    "plug": false,
+    "wifi": false,
+    "tv": false,
+    "seat":12,
+    "special":false
+  },
+  {
+    "id":"7",
+    "category": "Executive",
+    "model":"A",
+    "image":"resources/image/executive.jpg",
+    "airc":true,
+    "company": [
+                {"name": "Contreras S.A", "priceBase":1350, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Grupo Damas", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsa", "priceBase":1290, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":1000, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":900, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":825, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsina Graells", "priceBase":850, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": true,
+    "plug": true,
+    "wifi": true,
+    "tv": false,
+    "seat":29,
+    "special":false
+  },
+  {
+    "id":"8",
+    "category": "Executive",
+    "model":"B",
+    "image":"resources/image/executiveLarge.jpg",
+    "airc":true,
+    "company": [
+                {"name": "Alsa", "priceBase":1290, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":1000, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":900, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":825, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsina Graells", "priceBase":850, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": true,
+    "plug": true,
+    "wifi": true,
+    "tv": true,
+    "seat":34,
+    "special":false
+  },
+  {
+    "id":"9",
+    "category": "VIP",
+    "model":"A",
+    "image":"resources/image/vipmini.jpg",
+    "airc":true,
+    "company": [
+                {"name": "FerruchiBus", "priceBase":1350, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Socibus", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "plug": true,
+    "wheelchair": true,
+    "wifi": true,
+    "tv": true,
+    "seat":52,
+    "special":false
+  },
+  {
+    "id":"10",
+    "category": "Doble Desk",
+    "model":"A",
+    "image":"resources/image/dobleNaranja.jpg",
+    "airc":true,
+    "company": [
+                {"name": "Alsa", "priceBase":1290, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":1000, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":900, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":825, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsina Graells", "priceBase":850, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "plug": true,
+    "wheelchair": true,
+    "wifi": true,
+    "tv": false,
+    "seat":94,
+    "special":false
+  },
+  {
+    "id":"11",
+    "category": "Water Bus",
+    "model":"A",
+    "image":"resources/image/waterbus.jpg",
+    "airc":true,
+    "company": [
+                {"name": "FerruchiBus", "priceBase":1350, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "plug": true,
+    "wheelchair": false,
+    "wifi": true,
+    "tv": false,
+    "seat":40,
+    "special":true
+  },
+  {
+    "id":"12",
+    "category": "Snow Bus",
+    "model":"A",
+    "image":"resources/image/busnieve.jpg",
+    "airc":false,
+    "company": [
+                {"name": "FerruchiBus", "priceBase":1350, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "plug": true,
+    "wheelchair": false,
+    "wifi": false,
+    "tv": true,
+    "seat":8,
+    "special":true
+  },
+  {
+    "id":"13",
+    "category": "Party Bus",
+    "model":"A",
+    "image":"resources/image/busparty.jpg",
+    "airc":true,
+    "company": [
+                {"name": "FerruchiBus", "priceBase":1350, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "plug": false,
+    "wheelchair": false,
+    "wifi": true,
+    "tv": true,
+    "seat":30,
+    "special":true
+  },
+  {
+    "id":"14",
+    "category": "Paronamic",
+    "model":"A",
+    "image":"resources/image/paronamico.jpg",
+    "airc":true,
+    "company": [
+                {"name": "FerruchiBus", "priceBase":1350, "datai":1471212000000, "infoi":"15 Agosto", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Socibus", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsa", "priceBase":1290, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":1000, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":900, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":825, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Alsina Graells", "priceBase":850, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "plug": false,
+    "wheelchair": false,
+    "wifi": false,
+    "tv": false,
+    "seat":75,
+    "special":true
+  },
+  {
+    "id":"1",
+    "category": "Standard",
+    "model":"A",
+    "image":"resources/image/busAmarillo.jpg",
+    "airc":true,
+    "company": [
+                {"name": "Alsa", "priceBase":1290, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Socibus", "priceBase":1000, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Autocares Castillo", "priceBase":1200, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "FerruchiBus", "priceBase":900, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"},
+                {"name": "Samar", "priceBase":825, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1468533600000, "infof":"15 Julio"},
+                {"name": "Alsina Graells", "priceBase":850, "datai":1467324000000, "infoi":"1 de Julio", "dataf":1472594400000, "infof":"31 Agosto"}
+                ],
+    "wheelchair": true,
+    "plug": true,
+    "wifi": true,
+    "tv": true,
+    "seat":50,
+    "special":false
+  }
+]
+

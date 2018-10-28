@@ -1,0 +1,103 @@
+<section ng-controller="MotorBookController">
+    <div class="row">     
+          <div class="filterRight">
+        </div>  <!-- Close right menu -->
+
+          <section class="col s12 m8 l9">
+
+          <div class="filterTop col s12 m12 l12"></div>
+            <div class="border col s12 m12 l12" ng-repeat="coach in coachJson | filter: {category: categoryFilter, airc: acFilter, wheelchair: wheelchairFilter, wifi: wifiFilter, tv: tvFilter, plug: plugFilter}">
+
+               <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light col s12 m6 l6">
+                      <img class="activator imgbus" src="{{coach.image}}">
+                    </div>
+                    <div class="card-content col s12 m6 l6 imgbus">
+                      <span class="card-title activator grey-text text-darken-4">{{coach.category}} {{coach.model}}<i class="material-icons right">more_vert</i></span>
+                      <p>
+                        <i class="fa fa-television" ng-show="{{coach.tv}}"></i>
+                        <i class="fa fa-wheelchair" ng-show="{{coach.wheelchair}}"></i>
+                        <i class="fa fa-asterisk" ng-show="{{coach.airc}}"></i>
+                        <i class="fa fa-wifi" ng-show="{{coach.wifi}}"></i>
+                        <i class="fa fa-plug" ng-show="{{coach.plug}}"></i>
+                      </p>
+                      <p>Seat: {{coach.seat}}</p>
+                      <p>
+                        Lorem fistrum por la gloria de mi madre no puedor tiene musho peligro. Torpedo incididunt magna te va a hasé pupitaa.
+                      </p>
+                      <span class="btn-footer-card">
+                        <a class="waves-effect waves-black btn activator"><i class="material-icons right">info</i>See Prices</a>
+                      </span>
+
+
+                    </div>
+                    <div class="card-reveal">
+                      
+                      <span class="card-title grey-text text-darken-4">
+                      
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <div class="collection">
+                        <content ng-repeat="company in coach.company | fechas:datePick | fechas:dateReturn | orderBy:'priceBase'">
+                            <a class="collection-item modal-trigger" href="#samar">
+                              <i class="fa fa-bus fa-2x"></i>
+                              <span class="available"><strong>{{company.available | uppercase}}</strong></span>
+                              <span class="unavailable"><strong>{{company.unavailable | uppercase}}</strong></span>
+                              | {{company.name}}
+                              <span class="waves-effect waves-light btn secondary-content"><i class="material-icons left">send</i>Book per  {{company.priceBase}}€</i> day</span>
+                            </a>
+                        </content>
+                      </div>
+
+                    </div>
+                </div>
+
+            </div>
+          
+             
+          </section>
+           
+
+        </div>
+
+
+
+    </div> <!-- Close row -->
+</section>
+
+
+
+
+
+
+
+<!-- <div class="col s12 m12 l6 border" ng-repeat="coach in coachJson | filter: {category: categoryFilter, airc: acFilter, toilet: toiletFilter, wifi: wifiFilter, tv: tvFilter, belt: beltFilter}">
+                
+                <div class="card">
+                    
+                    <div class="col s6 m6 l6 border">
+                      <span class="card-title">{{coach.category}}</span>
+                        <a class="waves-effect waves-light btn" ng-show="{{coach.airc}}"><i class="material-icons left">label</i>AC</a>
+                      
+                        <a class="waves-effect waves-light btn" ng-show="{{coach.toilet}}"><i class="material-icons left">label</i>Toilet</a>
+
+                        <a class="waves-effect waves-light btn" ng-show="{{coach.wifi}}"><i class="material-icons left">label</i>Wifi</a>
+
+                        <a class="waves-effect waves-light btn" ng-show="{{coach.belt}}"><i class="material-icons left">label</i>Belt</a>
+
+                        <a class="waves-effect waves-light btn" ng-show="{{coach.tv}}"><i class="material-icons left">label</i>Tv</a>
+                    </div>
+                      
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                      <div>
+                        Compañias que operan este servicio: <p ng-repeat="company in coach.company | fechas:datePick | fechas:dateReturn | orderBy:'priceBase'">
+                        <span class="available">{{company.available}}</span>
+                        <span class="unavailable">{{company.unavailable}}</span>
+                        {{company.name}} {{company.priceBase}} {{company.infoi}} {{company.infof}}</span></p>
+                      </div>
+                    </div>
+                </div>   
+            </div> -->
